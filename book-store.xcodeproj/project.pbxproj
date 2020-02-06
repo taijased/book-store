@@ -10,7 +10,6 @@
 		1323D3B623EC50620026F730 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1323D3B523EC50620026F730 /* AppDelegate.swift */; };
 		1323D3B823EC50620026F730 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1323D3B723EC50620026F730 /* SceneDelegate.swift */; };
 		1323D3BA23EC50620026F730 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1323D3B923EC50620026F730 /* ViewController.swift */; };
-		1323D3BD23EC50620026F730 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1323D3BB23EC50620026F730 /* Main.storyboard */; };
 		1323D3BF23EC50640026F730 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1323D3BE23EC50640026F730 /* Assets.xcassets */; };
 		1323D3C223EC50640026F730 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1323D3C023EC50640026F730 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -20,7 +19,6 @@
 		1323D3B523EC50620026F730 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1323D3B723EC50620026F730 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		1323D3B923EC50620026F730 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		1323D3BC23EC50620026F730 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1323D3BE23EC50640026F730 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1323D3C123EC50640026F730 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1323D3C323EC50640026F730 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -59,12 +57,19 @@
 				1323D3B523EC50620026F730 /* AppDelegate.swift */,
 				1323D3B723EC50620026F730 /* SceneDelegate.swift */,
 				1323D3B923EC50620026F730 /* ViewController.swift */,
-				1323D3BB23EC50620026F730 /* Main.storyboard */,
+				1323D3C923EC51280026F730 /* Supporting Files */,
+			);
+			path = "book-store";
+			sourceTree = "<group>";
+		};
+		1323D3C923EC51280026F730 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
 				1323D3BE23EC50640026F730 /* Assets.xcassets */,
 				1323D3C023EC50640026F730 /* LaunchScreen.storyboard */,
 				1323D3C323EC50640026F730 /* Info.plist */,
 			);
-			path = "book-store";
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +132,6 @@
 			files = (
 				1323D3C223EC50640026F730 /* LaunchScreen.storyboard in Resources */,
 				1323D3BF23EC50640026F730 /* Assets.xcassets in Resources */,
-				1323D3BD23EC50620026F730 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,14 +151,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		1323D3BB23EC50620026F730 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1323D3BC23EC50620026F730 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		1323D3C023EC50640026F730 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -286,7 +282,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C8F3CLJ592;
-				INFOPLIST_FILE = "book-store/Info.plist";
+				INFOPLIST_FILE = "book-store/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,7 +300,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C8F3CLJ592;
-				INFOPLIST_FILE = "book-store/Info.plist";
+				INFOPLIST_FILE = "book-store/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
