@@ -9,19 +9,79 @@
 /* Begin PBXBuildFile section */
 		1323D3B623EC50620026F730 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1323D3B523EC50620026F730 /* AppDelegate.swift */; };
 		1323D3B823EC50620026F730 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1323D3B723EC50620026F730 /* SceneDelegate.swift */; };
-		1323D3BA23EC50620026F730 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1323D3B923EC50620026F730 /* ViewController.swift */; };
 		1323D3BF23EC50640026F730 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1323D3BE23EC50640026F730 /* Assets.xcassets */; };
 		1323D3C223EC50640026F730 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1323D3C023EC50640026F730 /* LaunchScreen.storyboard */; };
+		1323D3CD23EC52300026F730 /* StoryboardInitializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1323D3CC23EC52300026F730 /* StoryboardInitializable.swift */; };
+		1323D3D023EC52790026F730 /* Constraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1323D3CF23EC52790026F730 /* Constraints.swift */; };
+		1323D3D223EC528F0026F730 /* UIButton + Custom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1323D3D123EC528F0026F730 /* UIButton + Custom.swift */; };
+		1323D3D423EC52A60026F730 /* WebImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1323D3D323EC52A60026F730 /* WebImageView.swift */; };
+		1323D3D623EC52B50026F730 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1323D3D523EC52B50026F730 /* Reachability.swift */; };
+		1323D3DA23EC53180026F730 /* UIColor + ThemeColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1323D3D923EC53180026F730 /* UIColor + ThemeColors.swift */; };
+		1323D3DC23EC532F0026F730 /* UILabel + Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1323D3DB23EC532F0026F730 /* UILabel + Theme.swift */; };
+		1323D3DE23EC53410026F730 /* UIColor + hexValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1323D3DD23EC53410026F730 /* UIColor + hexValue.swift */; };
+		1323D3F023EC53A00026F730 /* TTNorms-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1323D3E023EC53A00026F730 /* TTNorms-Thin.ttf */; };
+		1323D3F123EC53A00026F730 /* TTNorms-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1323D3E123EC53A00026F730 /* TTNorms-BoldItalic.ttf */; };
+		1323D3F223EC53A00026F730 /* TTNorms-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1323D3E223EC53A00026F730 /* TTNorms-Bold.ttf */; };
+		1323D3F323EC53A00026F730 /* TTNorms-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1323D3E323EC53A00026F730 /* TTNorms-Regular.ttf */; };
+		1323D3F423EC53A00026F730 /* TTNorms-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1323D3E423EC53A00026F730 /* TTNorms-MediumItalic.ttf */; };
+		1323D3F523EC53A00026F730 /* TTNorms-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1323D3E523EC53A00026F730 /* TTNorms-ExtraLight.ttf */; };
+		1323D3F623EC53A00026F730 /* TTNorms-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1323D3E623EC53A00026F730 /* TTNorms-ThinItalic.ttf */; };
+		1323D3F723EC53A00026F730 /* TTNorms-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1323D3E723EC53A00026F730 /* TTNorms-Medium.ttf */; };
+		1323D3F823EC53A00026F730 /* TTNorms-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1323D3E823EC53A00026F730 /* TTNorms-LightItalic.ttf */; };
+		1323D3F923EC53A00026F730 /* TTNorms-HeavyItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1323D3E923EC53A00026F730 /* TTNorms-HeavyItalic.ttf */; };
+		1323D3FA23EC53A00026F730 /* TTNorms-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1323D3EA23EC53A00026F730 /* TTNorms-ExtraBoldItalic.ttf */; };
+		1323D3FB23EC53A00026F730 /* TTNorms-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1323D3EB23EC53A00026F730 /* TTNorms-ExtraBold.ttf */; };
+		1323D3FC23EC53A00026F730 /* TTNorms-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1323D3EC23EC53A00026F730 /* TTNorms-ExtraLightItalic.ttf */; };
+		1323D3FD23EC53A00026F730 /* TTNorms-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1323D3ED23EC53A00026F730 /* TTNorms-Light.ttf */; };
+		1323D3FE23EC53A00026F730 /* TTNorms-Heavy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1323D3EE23EC53A00026F730 /* TTNorms-Heavy.ttf */; };
+		1323D3FF23EC53A00026F730 /* TTNorms-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1323D3EF23EC53A00026F730 /* TTNorms-Italic.ttf */; };
+		1323D40623EC54790026F730 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1323D40523EC54790026F730 /* NetworkService.swift */; };
+		1323D40823EC548A0026F730 /* NetworkDataFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1323D40723EC548A0026F730 /* NetworkDataFetcher.swift */; };
+		1323D40A23EC54990026F730 /* DataFetcherService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1323D40923EC54990026F730 /* DataFetcherService.swift */; };
+		1323D40F23EC56800026F730 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1323D40E23EC56800026F730 /* WelcomeViewController.swift */; };
+		1323D41223EC56DE0026F730 /* WalkthroughFirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1323D41123EC56DE0026F730 /* WalkthroughFirstViewController.swift */; };
+		1323D41423EC56EA0026F730 /* WalkthroughSecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1323D41323EC56EA0026F730 /* WalkthroughSecondViewController.swift */; };
+		1323D41723EC5C770026F730 /* UIButton + Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1323D41623EC5C770026F730 /* UIButton + Theme.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1323D3B223EC50620026F730 /* book-store.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "book-store.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1323D3B523EC50620026F730 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1323D3B723EC50620026F730 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1323D3B923EC50620026F730 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1323D3BE23EC50640026F730 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1323D3C123EC50640026F730 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1323D3C323EC50640026F730 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1323D3CC23EC52300026F730 /* StoryboardInitializable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryboardInitializable.swift; sourceTree = "<group>"; };
+		1323D3CF23EC52790026F730 /* Constraints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constraints.swift; sourceTree = "<group>"; };
+		1323D3D123EC528F0026F730 /* UIButton + Custom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton + Custom.swift"; sourceTree = "<group>"; };
+		1323D3D323EC52A60026F730 /* WebImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebImageView.swift; sourceTree = "<group>"; };
+		1323D3D523EC52B50026F730 /* Reachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		1323D3D923EC53180026F730 /* UIColor + ThemeColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor + ThemeColors.swift"; sourceTree = "<group>"; };
+		1323D3DB23EC532F0026F730 /* UILabel + Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel + Theme.swift"; sourceTree = "<group>"; };
+		1323D3DD23EC53410026F730 /* UIColor + hexValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor + hexValue.swift"; sourceTree = "<group>"; };
+		1323D3E023EC53A00026F730 /* TTNorms-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TTNorms-Thin.ttf"; sourceTree = "<group>"; };
+		1323D3E123EC53A00026F730 /* TTNorms-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TTNorms-BoldItalic.ttf"; sourceTree = "<group>"; };
+		1323D3E223EC53A00026F730 /* TTNorms-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TTNorms-Bold.ttf"; sourceTree = "<group>"; };
+		1323D3E323EC53A00026F730 /* TTNorms-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TTNorms-Regular.ttf"; sourceTree = "<group>"; };
+		1323D3E423EC53A00026F730 /* TTNorms-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TTNorms-MediumItalic.ttf"; sourceTree = "<group>"; };
+		1323D3E523EC53A00026F730 /* TTNorms-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TTNorms-ExtraLight.ttf"; sourceTree = "<group>"; };
+		1323D3E623EC53A00026F730 /* TTNorms-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TTNorms-ThinItalic.ttf"; sourceTree = "<group>"; };
+		1323D3E723EC53A00026F730 /* TTNorms-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TTNorms-Medium.ttf"; sourceTree = "<group>"; };
+		1323D3E823EC53A00026F730 /* TTNorms-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TTNorms-LightItalic.ttf"; sourceTree = "<group>"; };
+		1323D3E923EC53A00026F730 /* TTNorms-HeavyItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TTNorms-HeavyItalic.ttf"; sourceTree = "<group>"; };
+		1323D3EA23EC53A00026F730 /* TTNorms-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TTNorms-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		1323D3EB23EC53A00026F730 /* TTNorms-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TTNorms-ExtraBold.ttf"; sourceTree = "<group>"; };
+		1323D3EC23EC53A00026F730 /* TTNorms-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TTNorms-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		1323D3ED23EC53A00026F730 /* TTNorms-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TTNorms-Light.ttf"; sourceTree = "<group>"; };
+		1323D3EE23EC53A00026F730 /* TTNorms-Heavy.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TTNorms-Heavy.ttf"; sourceTree = "<group>"; };
+		1323D3EF23EC53A00026F730 /* TTNorms-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TTNorms-Italic.ttf"; sourceTree = "<group>"; };
+		1323D40523EC54790026F730 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		1323D40723EC548A0026F730 /* NetworkDataFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkDataFetcher.swift; sourceTree = "<group>"; };
+		1323D40923EC54990026F730 /* DataFetcherService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataFetcherService.swift; sourceTree = "<group>"; };
+		1323D40E23EC56800026F730 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		1323D41123EC56DE0026F730 /* WalkthroughFirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkthroughFirstViewController.swift; sourceTree = "<group>"; };
+		1323D41323EC56EA0026F730 /* WalkthroughSecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkthroughSecondViewController.swift; sourceTree = "<group>"; };
+		1323D41623EC5C770026F730 /* UIButton + Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton + Theme.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +116,11 @@
 			children = (
 				1323D3B523EC50620026F730 /* AppDelegate.swift */,
 				1323D3B723EC50620026F730 /* SceneDelegate.swift */,
-				1323D3B923EC50620026F730 /* ViewController.swift */,
+				1323D3CA23EC51EC0026F730 /* Library */,
+				1323D40123EC540D0026F730 /* Screens */,
+				1323D40023EC53ED0026F730 /* Services */,
+				1323D3D723EC52CA0026F730 /* Design System */,
+				1323D3CE23EC524E0026F730 /* Helpers */,
 				1323D3C923EC51280026F730 /* Supporting Files */,
 			);
 			path = "book-store";
@@ -70,6 +134,128 @@
 				1323D3C323EC50640026F730 /* Info.plist */,
 			);
 			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1323D3CA23EC51EC0026F730 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				1323D3CB23EC51F30026F730 /* SVG Icons */,
+				1323D3CC23EC52300026F730 /* StoryboardInitializable.swift */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		1323D3CB23EC51F30026F730 /* SVG Icons */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "SVG Icons";
+			sourceTree = "<group>";
+		};
+		1323D3CE23EC524E0026F730 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				1323D3CF23EC52790026F730 /* Constraints.swift */,
+				1323D3D123EC528F0026F730 /* UIButton + Custom.swift */,
+				1323D3D323EC52A60026F730 /* WebImageView.swift */,
+				1323D3D523EC52B50026F730 /* Reachability.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		1323D3D723EC52CA0026F730 /* Design System */ = {
+			isa = PBXGroup;
+			children = (
+				1323D41523EC5C480026F730 /* UIButton */,
+				1323D3D823EC52F40026F730 /* Fonts */,
+				1323D3D923EC53180026F730 /* UIColor + ThemeColors.swift */,
+				1323D3DB23EC532F0026F730 /* UILabel + Theme.swift */,
+				1323D3DD23EC53410026F730 /* UIColor + hexValue.swift */,
+			);
+			path = "Design System";
+			sourceTree = "<group>";
+		};
+		1323D3D823EC52F40026F730 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				1323D3DF23EC53A00026F730 /* ttnorms */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		1323D3DF23EC53A00026F730 /* ttnorms */ = {
+			isa = PBXGroup;
+			children = (
+				1323D3E023EC53A00026F730 /* TTNorms-Thin.ttf */,
+				1323D3E123EC53A00026F730 /* TTNorms-BoldItalic.ttf */,
+				1323D3E223EC53A00026F730 /* TTNorms-Bold.ttf */,
+				1323D3E323EC53A00026F730 /* TTNorms-Regular.ttf */,
+				1323D3E423EC53A00026F730 /* TTNorms-MediumItalic.ttf */,
+				1323D3E523EC53A00026F730 /* TTNorms-ExtraLight.ttf */,
+				1323D3E623EC53A00026F730 /* TTNorms-ThinItalic.ttf */,
+				1323D3E723EC53A00026F730 /* TTNorms-Medium.ttf */,
+				1323D3E823EC53A00026F730 /* TTNorms-LightItalic.ttf */,
+				1323D3E923EC53A00026F730 /* TTNorms-HeavyItalic.ttf */,
+				1323D3EA23EC53A00026F730 /* TTNorms-ExtraBoldItalic.ttf */,
+				1323D3EB23EC53A00026F730 /* TTNorms-ExtraBold.ttf */,
+				1323D3EC23EC53A00026F730 /* TTNorms-ExtraLightItalic.ttf */,
+				1323D3ED23EC53A00026F730 /* TTNorms-Light.ttf */,
+				1323D3EE23EC53A00026F730 /* TTNorms-Heavy.ttf */,
+				1323D3EF23EC53A00026F730 /* TTNorms-Italic.ttf */,
+			);
+			path = ttnorms;
+			sourceTree = "<group>";
+		};
+		1323D40023EC53ED0026F730 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				1323D40423EC543D0026F730 /* Network */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		1323D40123EC540D0026F730 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				1323D41023EC56C20026F730 /* Walkthrough */,
+				1323D40B23EC563F0026F730 /* Welcome */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		1323D40423EC543D0026F730 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				1323D40523EC54790026F730 /* NetworkService.swift */,
+				1323D40723EC548A0026F730 /* NetworkDataFetcher.swift */,
+				1323D40923EC54990026F730 /* DataFetcherService.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		1323D40B23EC563F0026F730 /* Welcome */ = {
+			isa = PBXGroup;
+			children = (
+				1323D40E23EC56800026F730 /* WelcomeViewController.swift */,
+			);
+			path = Welcome;
+			sourceTree = "<group>";
+		};
+		1323D41023EC56C20026F730 /* Walkthrough */ = {
+			isa = PBXGroup;
+			children = (
+				1323D41123EC56DE0026F730 /* WalkthroughFirstViewController.swift */,
+				1323D41323EC56EA0026F730 /* WalkthroughSecondViewController.swift */,
+			);
+			path = Walkthrough;
+			sourceTree = "<group>";
+		};
+		1323D41523EC5C480026F730 /* UIButton */ = {
+			isa = PBXGroup;
+			children = (
+				1323D41623EC5C770026F730 /* UIButton + Theme.swift */,
+			);
+			path = UIButton;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -130,8 +316,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1323D3F023EC53A00026F730 /* TTNorms-Thin.ttf in Resources */,
+				1323D3FC23EC53A00026F730 /* TTNorms-ExtraLightItalic.ttf in Resources */,
+				1323D3F223EC53A00026F730 /* TTNorms-Bold.ttf in Resources */,
+				1323D3FE23EC53A00026F730 /* TTNorms-Heavy.ttf in Resources */,
+				1323D3F523EC53A00026F730 /* TTNorms-ExtraLight.ttf in Resources */,
+				1323D3F823EC53A00026F730 /* TTNorms-LightItalic.ttf in Resources */,
+				1323D3FB23EC53A00026F730 /* TTNorms-ExtraBold.ttf in Resources */,
+				1323D3F723EC53A00026F730 /* TTNorms-Medium.ttf in Resources */,
+				1323D3F123EC53A00026F730 /* TTNorms-BoldItalic.ttf in Resources */,
+				1323D3F623EC53A00026F730 /* TTNorms-ThinItalic.ttf in Resources */,
+				1323D3FD23EC53A00026F730 /* TTNorms-Light.ttf in Resources */,
 				1323D3C223EC50640026F730 /* LaunchScreen.storyboard in Resources */,
+				1323D3FF23EC53A00026F730 /* TTNorms-Italic.ttf in Resources */,
 				1323D3BF23EC50640026F730 /* Assets.xcassets in Resources */,
+				1323D3F423EC53A00026F730 /* TTNorms-MediumItalic.ttf in Resources */,
+				1323D3F923EC53A00026F730 /* TTNorms-HeavyItalic.ttf in Resources */,
+				1323D3FA23EC53A00026F730 /* TTNorms-ExtraBoldItalic.ttf in Resources */,
+				1323D3F323EC53A00026F730 /* TTNorms-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,9 +344,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1323D3BA23EC50620026F730 /* ViewController.swift in Sources */,
+				1323D3DC23EC532F0026F730 /* UILabel + Theme.swift in Sources */,
+				1323D40A23EC54990026F730 /* DataFetcherService.swift in Sources */,
 				1323D3B623EC50620026F730 /* AppDelegate.swift in Sources */,
+				1323D3DA23EC53180026F730 /* UIColor + ThemeColors.swift in Sources */,
+				1323D40823EC548A0026F730 /* NetworkDataFetcher.swift in Sources */,
+				1323D41223EC56DE0026F730 /* WalkthroughFirstViewController.swift in Sources */,
+				1323D40F23EC56800026F730 /* WelcomeViewController.swift in Sources */,
+				1323D3D223EC528F0026F730 /* UIButton + Custom.swift in Sources */,
+				1323D3D423EC52A60026F730 /* WebImageView.swift in Sources */,
+				1323D3D023EC52790026F730 /* Constraints.swift in Sources */,
+				1323D3CD23EC52300026F730 /* StoryboardInitializable.swift in Sources */,
+				1323D3D623EC52B50026F730 /* Reachability.swift in Sources */,
+				1323D3DE23EC53410026F730 /* UIColor + hexValue.swift in Sources */,
+				1323D40623EC54790026F730 /* NetworkService.swift in Sources */,
+				1323D41723EC5C770026F730 /* UIButton + Theme.swift in Sources */,
 				1323D3B823EC50620026F730 /* SceneDelegate.swift in Sources */,
+				1323D41423EC56EA0026F730 /* WalkthroughSecondViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
