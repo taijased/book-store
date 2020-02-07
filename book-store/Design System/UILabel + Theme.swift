@@ -50,7 +50,7 @@ extension UILabel {
             let label = UILabel()
             label.translatesAutoresizingMaskIntoConstraints = false
             label.textColor = UIColor.Black.primary
-            label.font = UIFont.getTTNormsFont(type: TTNorms.medium, size: 12)
+            label.font = UIFont.getTTNormsFont(type: TTNorms.regular, size: 12)
             return label
         }
     }

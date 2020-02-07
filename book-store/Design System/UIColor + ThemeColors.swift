@@ -11,9 +11,6 @@ import UIKit.UIColor
 
 
 
-protocol YellowColors {
-    static var primary: UIColor { get }
-}
 
 
 protocol BlackColors {
@@ -33,7 +30,27 @@ protocol BlueColors {
 
 
 
+protocol SocialColor {
+    static var facebook: UIColor { get }
+    static var vk: UIColor { get }
+    static var twitter: UIColor { get }
+    static var apple: UIColor { get }
+    
+}
 
+
+
+protocol GrayColor {
+    static var primary: UIColor { get }
+    static var primaryLight: UIColor { get }
+    static var light: UIColor { get }
+}
+
+
+
+protocol YellowColors {
+    static var primary: UIColor { get }
+}
 
 
 protocol PrimaryColor {
@@ -56,11 +73,37 @@ extension UIColor {
     }
     
     
+    
+    enum Social: SocialColor {
+        static let apple = UIColor.black
+        static let vk = UIColor(hexValue: "#1E88E5", alpha: 1.0)!
+        static let facebook = UIColor(hexValue: "#4267B2", alpha: 1.0)!
+        static let twitter = UIColor(hexValue: "#03A9F4", alpha: 1.0)!
+    }
+    
+    
+    
+    
+    
     // garbage
     
     enum Yellow: YellowColors {
-        static let primary = UIColor(hexValue: "#FFBF00", alpha: 1.0)!
+        static let primary = UIColor(hexValue: "#FEEB01", alpha: 1.0)!
     }
+    
+    
+    enum Gray: GrayColor {
+        static let primary = UIColor(hexValue: "#AFC1C4", alpha: 1.0)!
+        static let primaryLight = UIColor(hexValue: "#6D8387", alpha: 1.0)!
+        static let light = UIColor(hexValue: "#F6F7F9", alpha: 1.0)!
+    }
+    
+    
+    
+    
+    
+    
+    
     
     enum Black: BlackColors {
         static let primary: UIColor = UIColor(hexValue: "#19191C", alpha: 1.0)!

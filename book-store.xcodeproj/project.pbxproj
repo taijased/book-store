@@ -39,9 +39,23 @@
 		1323D40823EC548A0026F730 /* NetworkDataFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1323D40723EC548A0026F730 /* NetworkDataFetcher.swift */; };
 		1323D40A23EC54990026F730 /* DataFetcherService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1323D40923EC54990026F730 /* DataFetcherService.swift */; };
 		1323D40F23EC56800026F730 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1323D40E23EC56800026F730 /* WelcomeViewController.swift */; };
-		1323D41223EC56DE0026F730 /* WalkthroughFirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1323D41123EC56DE0026F730 /* WalkthroughFirstViewController.swift */; };
-		1323D41423EC56EA0026F730 /* WalkthroughSecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1323D41323EC56EA0026F730 /* WalkthroughSecondViewController.swift */; };
 		1323D41723EC5C770026F730 /* UIButton + Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1323D41623EC5C770026F730 /* UIButton + Theme.swift */; };
+		1323D41C23EC66B00026F730 /* WalkthroughViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1323D41B23EC66B00026F730 /* WalkthroughViewController.swift */; };
+		1323D41E23EC66D60026F730 /* WalkthroughViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1323D41D23EC66D60026F730 /* WalkthroughViewModel.swift */; };
+		1323D42623EC717C0026F730 /* WalkthroughCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1323D42523EC717C0026F730 /* WalkthroughCollectionView.swift */; };
+		1323D42C23EC72560026F730 /* WalkthroughCollectionViewVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1323D42B23EC72560026F730 /* WalkthroughCollectionViewVM.swift */; };
+		1323D42E23EC73050026F730 /* WalkthroughCollectionViewCellVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1323D42D23EC73050026F730 /* WalkthroughCollectionViewCellVM.swift */; };
+		1323D43023EC731D0026F730 /* WalkthroughCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1323D42F23EC731D0026F730 /* WalkthroughCollectionViewCell.swift */; };
+		1323D43323ED63C00026F730 /* QuadPageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1323D43223ED63C00026F730 /* QuadPageControl.swift */; };
+		1323D43523ED66120026F730 /* WalkthroughModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1323D43423ED66120026F730 /* WalkthroughModel.swift */; };
+		1323D43B23ED6B290026F730 /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1323D43A23ED6B290026F730 /* AuthViewController.swift */; };
+		1323D43D23ED6B3D0026F730 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1323D43C23ED6B3D0026F730 /* AuthViewModel.swift */; };
+		1323D43F23ED6E860026F730 /* LoginTextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1323D43E23ED6E860026F730 /* LoginTextFieldView.swift */; };
+		1323D44123ED72DF0026F730 /* PasswordTextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1323D44023ED72DF0026F730 /* PasswordTextFieldView.swift */; };
+		1323D44323ED77EB0026F730 /* SocialControlsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1323D44223ED77EB0026F730 /* SocialControlsView.swift */; };
+		1323D44523ED79750026F730 /* FacebookStyleKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1323D44423ED79750026F730 /* FacebookStyleKit.swift */; };
+		1323D44723ED7A500026F730 /* FacebookIconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1323D44623ED7A500026F730 /* FacebookIconView.swift */; };
+		1323D44923ED83F40026F730 /* PrivacyPolicyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1323D44823ED83F40026F730 /* PrivacyPolicyView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -79,9 +93,23 @@
 		1323D40723EC548A0026F730 /* NetworkDataFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkDataFetcher.swift; sourceTree = "<group>"; };
 		1323D40923EC54990026F730 /* DataFetcherService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataFetcherService.swift; sourceTree = "<group>"; };
 		1323D40E23EC56800026F730 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
-		1323D41123EC56DE0026F730 /* WalkthroughFirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkthroughFirstViewController.swift; sourceTree = "<group>"; };
-		1323D41323EC56EA0026F730 /* WalkthroughSecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkthroughSecondViewController.swift; sourceTree = "<group>"; };
 		1323D41623EC5C770026F730 /* UIButton + Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton + Theme.swift"; sourceTree = "<group>"; };
+		1323D41B23EC66B00026F730 /* WalkthroughViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkthroughViewController.swift; sourceTree = "<group>"; };
+		1323D41D23EC66D60026F730 /* WalkthroughViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkthroughViewModel.swift; sourceTree = "<group>"; };
+		1323D42523EC717C0026F730 /* WalkthroughCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkthroughCollectionView.swift; sourceTree = "<group>"; };
+		1323D42B23EC72560026F730 /* WalkthroughCollectionViewVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkthroughCollectionViewVM.swift; sourceTree = "<group>"; };
+		1323D42D23EC73050026F730 /* WalkthroughCollectionViewCellVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkthroughCollectionViewCellVM.swift; sourceTree = "<group>"; };
+		1323D42F23EC731D0026F730 /* WalkthroughCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkthroughCollectionViewCell.swift; sourceTree = "<group>"; };
+		1323D43223ED63C00026F730 /* QuadPageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuadPageControl.swift; sourceTree = "<group>"; };
+		1323D43423ED66120026F730 /* WalkthroughModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkthroughModel.swift; sourceTree = "<group>"; };
+		1323D43A23ED6B290026F730 /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
+		1323D43C23ED6B3D0026F730 /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
+		1323D43E23ED6E860026F730 /* LoginTextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginTextFieldView.swift; sourceTree = "<group>"; };
+		1323D44023ED72DF0026F730 /* PasswordTextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordTextFieldView.swift; sourceTree = "<group>"; };
+		1323D44223ED77EB0026F730 /* SocialControlsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialControlsView.swift; sourceTree = "<group>"; };
+		1323D44423ED79750026F730 /* FacebookStyleKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FacebookStyleKit.swift; sourceTree = "<group>"; };
+		1323D44623ED7A500026F730 /* FacebookIconView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacebookIconView.swift; sourceTree = "<group>"; };
+		1323D44823ED83F40026F730 /* PrivacyPolicyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyPolicyView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +176,8 @@
 		1323D3CB23EC51F30026F730 /* SVG Icons */ = {
 			isa = PBXGroup;
 			children = (
+				1323D44423ED79750026F730 /* FacebookStyleKit.swift */,
+				1323D44623ED7A500026F730 /* FacebookIconView.swift */,
 			);
 			path = "SVG Icons";
 			sourceTree = "<group>";
@@ -166,6 +196,7 @@
 		1323D3D723EC52CA0026F730 /* Design System */ = {
 			isa = PBXGroup;
 			children = (
+				1323D43123ED63AC0026F730 /* View */,
 				1323D41523EC5C480026F730 /* UIButton */,
 				1323D3D823EC52F40026F730 /* Fonts */,
 				1323D3D923EC53180026F730 /* UIColor + ThemeColors.swift */,
@@ -217,6 +248,7 @@
 		1323D40123EC540D0026F730 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				1323D43623ED6AEF0026F730 /* Auth */,
 				1323D41023EC56C20026F730 /* Walkthrough */,
 				1323D40B23EC563F0026F730 /* Welcome */,
 			);
@@ -244,8 +276,9 @@
 		1323D41023EC56C20026F730 /* Walkthrough */ = {
 			isa = PBXGroup;
 			children = (
-				1323D41123EC56DE0026F730 /* WalkthroughFirstViewController.swift */,
-				1323D41323EC56EA0026F730 /* WalkthroughSecondViewController.swift */,
+				1323D41923EC668C0026F730 /* Model */,
+				1323D41823EC66840026F730 /* View */,
+				1323D41A23EC66910026F730 /* ViewModel */,
 			);
 			path = Walkthrough;
 			sourceTree = "<group>";
@@ -256,6 +289,79 @@
 				1323D41623EC5C770026F730 /* UIButton + Theme.swift */,
 			);
 			path = UIButton;
+			sourceTree = "<group>";
+		};
+		1323D41823EC66840026F730 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1323D41B23EC66B00026F730 /* WalkthroughViewController.swift */,
+				1323D42523EC717C0026F730 /* WalkthroughCollectionView.swift */,
+				1323D42F23EC731D0026F730 /* WalkthroughCollectionViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1323D41923EC668C0026F730 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1323D43423ED66120026F730 /* WalkthroughModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1323D41A23EC66910026F730 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				1323D41D23EC66D60026F730 /* WalkthroughViewModel.swift */,
+				1323D42B23EC72560026F730 /* WalkthroughCollectionViewVM.swift */,
+				1323D42D23EC73050026F730 /* WalkthroughCollectionViewCellVM.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		1323D43123ED63AC0026F730 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1323D43223ED63C00026F730 /* QuadPageControl.swift */,
+				1323D43E23ED6E860026F730 /* LoginTextFieldView.swift */,
+				1323D44023ED72DF0026F730 /* PasswordTextFieldView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1323D43623ED6AEF0026F730 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				1323D43923ED6AFB0026F730 /* Model */,
+				1323D43823ED6AF90026F730 /* View */,
+				1323D43723ED6AF60026F730 /* ViewModel */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		1323D43723ED6AF60026F730 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				1323D43C23ED6B3D0026F730 /* AuthViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		1323D43823ED6AF90026F730 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1323D43A23ED6B290026F730 /* AuthViewController.swift */,
+				1323D44223ED77EB0026F730 /* SocialControlsView.swift */,
+				1323D44823ED83F40026F730 /* PrivacyPolicyView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1323D43923ED6AFB0026F730 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -345,22 +451,36 @@
 			buildActionMask = 2147483647;
 			files = (
 				1323D3DC23EC532F0026F730 /* UILabel + Theme.swift in Sources */,
+				1323D42E23EC73050026F730 /* WalkthroughCollectionViewCellVM.swift in Sources */,
+				1323D42C23EC72560026F730 /* WalkthroughCollectionViewVM.swift in Sources */,
 				1323D40A23EC54990026F730 /* DataFetcherService.swift in Sources */,
+				1323D43B23ED6B290026F730 /* AuthViewController.swift in Sources */,
+				1323D44323ED77EB0026F730 /* SocialControlsView.swift in Sources */,
 				1323D3B623EC50620026F730 /* AppDelegate.swift in Sources */,
+				1323D43F23ED6E860026F730 /* LoginTextFieldView.swift in Sources */,
 				1323D3DA23EC53180026F730 /* UIColor + ThemeColors.swift in Sources */,
+				1323D42623EC717C0026F730 /* WalkthroughCollectionView.swift in Sources */,
 				1323D40823EC548A0026F730 /* NetworkDataFetcher.swift in Sources */,
-				1323D41223EC56DE0026F730 /* WalkthroughFirstViewController.swift in Sources */,
 				1323D40F23EC56800026F730 /* WelcomeViewController.swift in Sources */,
 				1323D3D223EC528F0026F730 /* UIButton + Custom.swift in Sources */,
+				1323D44723ED7A500026F730 /* FacebookIconView.swift in Sources */,
 				1323D3D423EC52A60026F730 /* WebImageView.swift in Sources */,
+				1323D43523ED66120026F730 /* WalkthroughModel.swift in Sources */,
 				1323D3D023EC52790026F730 /* Constraints.swift in Sources */,
+				1323D41C23EC66B00026F730 /* WalkthroughViewController.swift in Sources */,
 				1323D3CD23EC52300026F730 /* StoryboardInitializable.swift in Sources */,
 				1323D3D623EC52B50026F730 /* Reachability.swift in Sources */,
+				1323D43323ED63C00026F730 /* QuadPageControl.swift in Sources */,
+				1323D44523ED79750026F730 /* FacebookStyleKit.swift in Sources */,
 				1323D3DE23EC53410026F730 /* UIColor + hexValue.swift in Sources */,
 				1323D40623EC54790026F730 /* NetworkService.swift in Sources */,
+				1323D43D23ED6B3D0026F730 /* AuthViewModel.swift in Sources */,
+				1323D44923ED83F40026F730 /* PrivacyPolicyView.swift in Sources */,
 				1323D41723EC5C770026F730 /* UIButton + Theme.swift in Sources */,
+				1323D43023EC731D0026F730 /* WalkthroughCollectionViewCell.swift in Sources */,
 				1323D3B823EC50620026F730 /* SceneDelegate.swift in Sources */,
-				1323D41423EC56EA0026F730 /* WalkthroughSecondViewController.swift in Sources */,
+				1323D44123ED72DF0026F730 /* PasswordTextFieldView.swift in Sources */,
+				1323D41E23EC66D60026F730 /* WalkthroughViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
